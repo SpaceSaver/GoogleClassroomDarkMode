@@ -17,5 +17,8 @@
     },
     "permissions": [
         "storage"
-    ]
+    ],
+    "background": {
+        "service_worker": "storeManager.js"
+    }
 }

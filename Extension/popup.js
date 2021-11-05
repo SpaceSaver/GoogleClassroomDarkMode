@@ -1,9 +1,9 @@
 window.onload = () => {
     const toggle = document.getElementById("toggle");
-    chrome.storage.sync.get(["enabled"], (result) => {
-        toggle.value = result.enabled;
+    chrome.runtime.sendMessage({command: "get", space: "sync", keys: ["enabled"]}, (result) => {
+        toggle.checked = result.enabled;
     });
     toggle.onchange = () => {
-        chrome.storage.sync.set({enabled: toggle.value});
-    }
+        chrome.runtime.sendMessage({command: "set", space: "sync", object: {enabled: toggle.checked}});
+    };
 };
