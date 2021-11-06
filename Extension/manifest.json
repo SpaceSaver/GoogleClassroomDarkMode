@@ -16,7 +16,8 @@
         "default_popup": "popup.html"
     },
     "permissions": [
-        "storage"
+        "storage",
+        "tabs"
     ],
     "background": {
         "service_worker": "storeManager.js"

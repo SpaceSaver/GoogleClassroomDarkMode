@@ -61,25 +61,31 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         });
         return true;
     }
-    else if (request.command === "set"){
+    else if (request.command === "set") {
         chrome.storage[request.space].set(request.object, result => {
             sendResponse(result);
         });
         return true;
     }
-    else if (request.command === "whoami"){
-        sendResponse({id: chrome.runtime.id});
+    else if (request.command === "whoami") {
+        sendResponse({ id: chrome.runtime.id });
         return true;
     }
-    else if (request.command === "thefile"){
+    else if (request.command === "thefile") {
         fetch("CustomTheme.css").then(response => {
             return response.text()
         }).then(data => {
-            sendResponse({url: "data:text/css;base64," + btoa(data)});
+            sendResponse({ url: "data:text/css;base64," + btoa(data) });
         });
         return true;
     }
 });
-// chrome.storage.onChanged.addListener((changes, area) => {
-//     chrome.runtime.sendMessage({command: "changes", changes: changes, area: area});
-// });
+chrome.storage.onChanged.addListener((changes, area) => {
+    chrome.tabs.query({}, function (tabs) {
+        // console.log(tabs);
+        for (var x = 0; x < tabs.length; x++){
+            // console.log(tabs[x].id);
+            chrome.tabs.sendMessage(tabs[x].id, { command: "changes", changes: changes, area: area });
+        }
+    });
+});

@@ -21,8 +21,9 @@ window.addEventListener("load", () => {
             setCustom();
         }
     })
-    chrome.runtime.onMessage = (request, sender, sendResponse) => {
-        if (request.command === "change") {
+    chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+        // console.log(request);
+        if (request.command === "changes") {
             if (request.area === "sync" && request.changes.enabled?.newValue != undefined) {
                 if (request.changes.enabled.newValue) {
                     setCustom();
@@ -34,5 +35,5 @@ window.addEventListener("load", () => {
                 }
             }
         }
-    };
+    });
 });
