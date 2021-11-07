@@ -16851,6 +16851,6 @@
     /* .eZFVZ .Ny5lGc.RDPZE .oJeWuf {
         background-color: transparent !important;
     } */
-    .eZFVZ.Ny5lGc.RDPZE.oJeWuf {
+    .eZFVZ:hover .Ny5lGc .oJeWuf {
         background-color: #222 !important; 
     }
