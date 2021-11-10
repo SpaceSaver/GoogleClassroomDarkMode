@@ -2306,8 +2306,8 @@
         background-color: #333;
     }
     
-    .z80M1.RDPZE {
-        color: #7f7f7f;
+    .z80M1.RDPZE { /* Checkbox color; select a class */
+        color: #d5d5d5;
         cursor: default
     }
     
@@ -5425,12 +5425,12 @@
         }
     }
     
-    .WOPwXe {
+    .WOPwXe { /* Agenda section headings */
         font-family: 'Google Sans', Roboto, Arial, sans-serif;
         font-size: 1.125rem;
         font-weight: 400;
         line-height: 1.5rem;
-        color: #3c4043
+        color: #788187
     }
     
     .WOPwXe-Wvd9Cc {
@@ -5478,13 +5478,13 @@
         color: #5f6368
     }
     
-    .asQXV-FGzYL {
+    .asQXV-FGzYL { /* Class selection text; make an assignment */
         letter-spacing: .01785714em;
         font-family: 'Google Sans', Roboto, Arial, sans-serif;
         font-size: 0.875rem;
         font-weight: 400;
         line-height: 1.25rem;
-        color: #3c4043
+        color: #eee
     }
     
     .lYU7F {
@@ -5737,8 +5737,8 @@
         text-transform: none
     }
     
-    .cLpBac {
-        background: #f8f9fa;
+    .cLpBac { /* Some selection menus (For and Due) in create an assignment */
+        background: #111;
         padding: 12px 0
     }
     
@@ -8272,8 +8272,8 @@
     .UvHKof .fWf7qe:not(.RDPZE).u3bW4e .snByac,
     .UvHKof .HyS0Qd:not(.RDPZE).u3bW4e .snByac,
     .UvHKof .HyS0Qd input:not([disabled]):focus~.snByac,
-    .UvHKof .vnnr5e:not(.RDPZE).u3bW4e .snByac {
-        color: #202124
+    .UvHKof .vnnr5e:not(.RDPZE).u3bW4e .snByac { /* Create an assignment title box label when box in focus */
+        color: #878b90
     }
     
     .UvHKof .NqFm6:not(.RDPZE) .tWfTvb [role=option][aria-selected=true],
@@ -16851,3 +16851,32 @@
     /* .eZFVZ .Ny5lGc.RDPZE .oJeWuf {
         background-color: transparent !important;
     } */
+    div.eZFVZ:hover .Ny5lGc .oJeWuf {
+        background-color: #000; 
+    }
+    div.eZFVZ .Ny5lGc.RDPZE .oJeWuf { /* Points selection background; create an assignment */
+        background-color: #111;
+    }
+    div.VfPpkd-xl07Ob-XxIAqe {
+        background-color: #000;
+    }
+    .q6oraf .VfPpkd-StrnGf-rymPhb {
+        color: #fff !important; /* Create class menu text */
+    }
+    :not(.VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me).VfPpkd-StrnGf-rymPhb-ibnC6b .VfPpkd-StrnGf-rymPhb-pZXsl::before, :not(.VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me).VfPpkd-StrnGf-rymPhb-ibnC6b .VfPpkd-StrnGf-rymPhb-pZXsl::after {
+        background-color: var(--mdc-ripple-color,#fff) !important; /* Create class menu highlight */
+        background-color: #ffff !important;
+    }
+    .fWf7qe .Yalane { /* Create an assignment title */
+        background-color: #111 !important; 
+    }
+    .hqfVKd { /* Create an assignment title text box */
+        color: #e5e5e5;
+    }
+    li.MHxtic:hover {
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%), 0 2px 6px 2px rgb(0 0 0 / 15%);
+        background-color: #111;
+    }
+/*
+ * TODO: Fix respond to question text field
+ */
