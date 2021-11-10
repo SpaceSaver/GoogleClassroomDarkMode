@@ -2306,8 +2306,8 @@
         background-color: #333;
     }
     
-    .z80M1.RDPZE {
-        color: #7f7f7f;
+    .z80M1.RDPZE { /* Checkbox color; select a class */
+        color: #d5d5d5;
         cursor: default
     }
     
