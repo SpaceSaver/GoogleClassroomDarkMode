@@ -16861,10 +16861,10 @@
         background-color: #000;
     }
     .q6oraf .VfPpkd-StrnGf-rymPhb {
-        color: #fff !important;
+        color: #fff !important; /* Create class menu text */
     }
     :not(.VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me).VfPpkd-StrnGf-rymPhb-ibnC6b .VfPpkd-StrnGf-rymPhb-pZXsl::before, :not(.VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me).VfPpkd-StrnGf-rymPhb-ibnC6b .VfPpkd-StrnGf-rymPhb-pZXsl::after {
-        background-color: var(--mdc-ripple-color,#fff) !important;
+        background-color: var(--mdc-ripple-color,#fff) !important; /* Create class menu highlight */
     }
 /*
  * TODO: Fix respond to question text field
