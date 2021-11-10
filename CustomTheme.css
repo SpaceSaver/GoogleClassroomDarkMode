@@ -16875,6 +16875,7 @@
     }
     li.MHxtic:hover {
         box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%), 0 2px 6px 2px rgb(0 0 0 / 15%);
+        background-color: #111;
     }
 /*
  * TODO: Fix respond to question text field
