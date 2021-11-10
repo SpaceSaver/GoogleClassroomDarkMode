@@ -16865,7 +16865,7 @@
     }
     :not(.VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me).VfPpkd-StrnGf-rymPhb-ibnC6b .VfPpkd-StrnGf-rymPhb-pZXsl::before, :not(.VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me).VfPpkd-StrnGf-rymPhb-ibnC6b .VfPpkd-StrnGf-rymPhb-pZXsl::after {
         background-color: var(--mdc-ripple-color,#fff) !important; /* Create class menu highlight */
-        background-color: #fffd !important;
+        background-color: #ffff !important;
     }
 /*
  * TODO: Fix respond to question text field
