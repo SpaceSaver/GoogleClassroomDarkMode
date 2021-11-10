@@ -16867,6 +16867,9 @@
         background-color: var(--mdc-ripple-color,#fff) !important; /* Create class menu highlight */
         background-color: #ffff !important;
     }
+    .fWf7qe .Yalane { /* Create an assignment title */
+        background-color: #111 !important; 
+    }
 /*
  * TODO: Fix respond to question text field
  */
