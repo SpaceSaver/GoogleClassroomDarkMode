@@ -72,7 +72,7 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
         return true;
     }
     else if (request.command === "thefile") {
-        fetch("https://raw.githubusercontent.com/SpaceSaver/GoogleClassroomDarkMode/unstable/CustomTheme.css?nocache=" + Math.random().toString(), {cache: "no-store"}).then(response => {
+        fetch("https://raw.githubusercontent.com/SpaceSaver/GoogleClassroomDarkMode/beta/CustomTheme.css").then(response => {
             return response.text()
         }).then(data => {
             sendResponse({ url: "data:text/css;base64," + btoa(data) });
