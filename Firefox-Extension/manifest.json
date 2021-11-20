@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+    "name": "Google Classroom Dark Mode That's Actually Good",
+    "version": "0.0.0.3",
+    "content_scripts": [
+        {
+            "js": [
+                "injector.js"
+            ],
+            "matches": [
+                "https://classroom.google.com/*",
+                "http://classroom.google.com/*"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["storeManager.js"]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+          "strict_min_version": "42.0",
+          "id": "{00000000-0000-0000-0000-000000000000}"
+        }
+    },
+    "icons": {
+        "48": "Icon.png",
+        "96": "icon.svg"
+    }
+}
