@@ -16880,6 +16880,9 @@
     .aSjeL.aSjeL td { /*Student assignment list background fix*/
         background-color: #333 !important;
     }
+    .vPNssb .jBmls { /*Wierd subject box in class settings*/
+        background-color: #222;
+    }
 /*
  * TODO: Fix respond to question text field
  */
