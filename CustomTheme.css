@@ -8848,7 +8848,7 @@
     .g2MItd .ZoT1D:hover .idtp4e,
     .g2MItd .ZoT1D:hover.j6KDAd,
     .g2MItd .ZoT1D:hover .j6KDAd {
-        background-color: #1a0d00 /*381d00*/
+        background-color: #1a0d00 /*381d00*/ /*subtract 33% from the L of HSL from the font used in the colored fonts*/
     }
     
     .g2MItd .OGhwGf:focus,
@@ -12308,7 +12308,7 @@
     .Mupove .ZoT1D:hover .idtp4e,
     .Mupove .ZoT1D:hover.j6KDAd,
     .Mupove .ZoT1D:hover .j6KDAd {
-        background-color: #f3e8fd
+        background-color: #1d0a2e
     }
     
     .Mupove .OGhwGf:focus,
