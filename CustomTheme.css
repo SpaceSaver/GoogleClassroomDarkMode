@@ -16878,7 +16878,7 @@
         background-color: #111;
     }
     .aSjeL.aSjeL td { /*Student assignment list background fix*/
-        background-color: #333;
+        background-color: #333 !important;
     }
 /*
  * TODO: Fix respond to question text field
