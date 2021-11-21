@@ -16884,7 +16884,10 @@
         background-color: #222;
     }
     .fWf7qe:not(.RDPZE):hover .Yalane { /*Description box class settings?*/
-        background-color: #111;
+        background-color: #111 !important;
+    }
+    .fWf7qe .Yalane { /*Description box non-hover settings*/
+        background-color: #151515 !important;
     }
 /*
  * TODO: Fix respond to question text field
