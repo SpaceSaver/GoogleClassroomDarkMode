@@ -16854,8 +16854,8 @@
     div.eZFVZ:hover .Ny5lGc .oJeWuf {
         background-color: #000; 
     }
-    div.eZFVZ .Ny5lGc.RDPZE .oJeWuf { /* Points selection background; create an assignment */
-        background-color: #111;
+    div.eZFVZ .Ny5lGc.RDPZE .oJeWuf { /* Points selection background; create an assignment  & Subject input background class settings*/
+        background-color: #151515;
     }
     div.VfPpkd-xl07Ob-XxIAqe {
         background-color: #000;
@@ -16888,6 +16888,9 @@
     }
     .fWf7qe .Yalane { /*Description box non-hover settings*/
         background-color: #151515 !important;
+    }
+    div.eZFVZ .Ny5lGc.RDPZE .oJeWuf:hover {
+        background-color: #111;
     }
 /*
  * TODO: Fix respond to question text field
