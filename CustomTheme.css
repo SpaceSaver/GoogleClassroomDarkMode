@@ -1476,7 +1476,7 @@
         display: none
     }
     
-    .feojCc {
+    .feojCc { /*Class settings headlines text options*/
         font-family: "Google Sans", Roboto, Arial, sans-serif;
         font-size: 16px;
         font-weight: 500;
@@ -1490,7 +1490,7 @@
         justify-content: space-between;
         background-color: #000;
         border-bottom: #dadce0 1px solid;
-        color: #3c4043;
+        color: #bbb;
         display: none
     }
     
