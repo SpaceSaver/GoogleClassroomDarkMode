@@ -16892,6 +16892,9 @@
     div.eZFVZ .Ny5lGc.RDPZE .oJeWuf:hover { /*Try to fix hover over subject class settings */ /*FAIL*/
         background-color: #111;
     }
+    .uRr8Jb:not(.RDPZE) .snByac { /*Class settings manage invite codes*/
+        color: #bbb;
+    }
 
 /*
  * TODO: Fix respond to question text field
