@@ -16852,7 +16852,7 @@
         background-color: transparent !important;
     } */
     div.eZFVZ:hover .Ny5lGc .oJeWuf {
-        background-color: #000; 
+        background-color: #111 !important; 
     }
     div.eZFVZ .Ny5lGc.RDPZE .oJeWuf { /* Points selection background; create an assignment  & Subject input background class settings*/
         background-color: #151515;
@@ -16889,9 +16889,10 @@
     .fWf7qe .Yalane { /*Description box non-hover settings*/
         background-color: #151515 !important;
     }
-    div.eZFVZ .Ny5lGc.RDPZE .oJeWuf:hover {
+    div.eZFVZ .Ny5lGc.RDPZE .oJeWuf:hover { /*Try to fix hover over subject class settings */ /*FAIL*/
         background-color: #111;
     }
+
 /*
  * TODO: Fix respond to question text field
  */
