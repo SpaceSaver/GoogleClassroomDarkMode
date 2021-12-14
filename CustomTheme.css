@@ -16901,6 +16901,9 @@
     .lXuxY, .pO6AMc, .PqkECe { /*Classwork expanded assignment shadow */
         box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3),0 2px 6px 2px rgba(0,0,0,0.15) !important;
     }
+    .tfGBod.tfGBod:not(.xp2dJ), .tfGBod.xp2dJ .jWCzBe, .tfGBod.xp2dJ .iobNdf { /*Classwork tab assignment backgrounds*/
+        background-color: black !important;
+    }
 
 /*
  * TODO: Fix respond to question text field
