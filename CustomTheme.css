@@ -16904,6 +16904,9 @@
     .tfGBod.tfGBod:not(.xp2dJ), .tfGBod.xp2dJ .jWCzBe, .tfGBod.xp2dJ .iobNdf { /*Classwork tab assignment backgrounds*/
         background-color: black !important;
     }
+    .V8apv { /*Submitted text response*/
+        background-color: #171717 !important;
+    }
 
 /*
  * TODO: Fix respond to question text field
