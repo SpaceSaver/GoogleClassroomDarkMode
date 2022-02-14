@@ -16907,6 +16907,12 @@
     .V8apv { /*Submitted text response*/
         background-color: #171717 !important;
     }
+    .DC55n td {
+        background-color: black;
+    }
+    .TJtJXb:hover td, .tYQn5c:hover td, .DC55n:hover td {
+        background-color: #010101;
+    }
 
 /*
  * TODO: Fix respond to question text field
