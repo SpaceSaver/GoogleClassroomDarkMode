@@ -16907,11 +16907,11 @@
     .V8apv { /*Submitted text response*/
         background-color: #171717 !important;
     }
-    .DC55n td {
-        background-color: black;
+    .DC55n td { /*Standard background student list; student responses*/
+        background-color: black !important;
     }
-    .TJtJXb:hover td, .tYQn5c:hover td, .DC55n:hover td {
-        background-color: #010101;
+    .TJtJXb:hover td, .tYQn5c:hover td, .DC55n:hover td { /*Hover background student list; student responses*/
+        background-color: #010101 !important;
     }
 
 /*
