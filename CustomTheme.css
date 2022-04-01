@@ -16913,67 +16913,6 @@
     .TJtJXb:hover td, .tYQn5c:hover td, .DC55n:hover td { /*Hover background student list; student responses*/
         background-color: #444 !important;
     }
-    .VfPpkd-l6JLsf {
-        overflow:hidden;
-        position:relative;
-        width:100%
-       }
-       .VfPpkd-l6JLsf::before {
-        border:1px solid transparent;
-        -moz-border-radius:inherit;
-        border-radius:inherit;
-        box-sizing:border-box;
-        content:"";
-        height:100%;
-        left:0;
-        position:absolute;
-        width:100%
-       }
-       .VfPpkd-l6JLsf::after {
-        border:1px solid transparent;
-        -moz-border-radius:inherit;
-        border-radius:inherit;
-        box-sizing:border-box;
-        content:"";
-        height:100%;
-        left:0;
-        position:absolute;
-        width:100%
-       }
-       @media screen and (forced-colors:active) {
-        .VfPpkd-l6JLsf::before {
-         border-color:currentColor
-        }
-        .VfPpkd-l6JLsf::after {
-         border-color:currentColor
-        }
-       }
-    .VfPpkd-l6JLsf::before {
-        transition:transform 75ms 0ms cubic-bezier(0,0,0.2,1);
-        transform:translateX(0)
-    }
-    .VfPpkd-l6JLsf::after {
-        transition:transform 75ms 0ms cubic-bezier(0.4,0,0.6,1);
-        transform:translateX(-100%)
-    }
-    [dir=rtl] .VfPpkd-l6JLsf::after {
-        transform:translateX(100%)
-    }
-    .VfPpkd-l6JLsf[dir=rtl]::after {
-        transform:translateX(100%)
-    }
-    .VfPpkd-scr2fc-OWXEXe-gk6SMd .VfPpkd-l6JLsf::before {
-        transition:transform 75ms 0ms cubic-bezier(0.4,0,0.6,1);
-        transform:translateX(100%)
-    }
-    [dir=rtl] .VfPpkd-scr2fc-OWXEXe-gk6SMd .VfPpkd-l6JLsf::before,
-       .VfPpkd-scr2fc-OWXEXe-gk6SMd .VfPpkd-l6JLsf[dir=rtl]::before {
-        transform:translateX(-100%)
-    }
-    .VfPpkd-scr2fc-OWXEXe-gk6SMd .VfPpkd-l6JLsf::after {
-        transition:transform 75ms 0ms cubic-bezier(0,0,0.2,1);
-        transform:translateX(0)
-    }
 
 /*
  * TODO: Fix respond to question text field
